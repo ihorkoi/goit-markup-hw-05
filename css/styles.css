@@ -539,8 +539,6 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  display: flex;
-  justify-content: end;
   width: 408px;
   height: 576px;
 
@@ -554,12 +552,12 @@ ul {
 }
 .close-button {
   display: block;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  margin-left: auto;
 
   width: 24px;
   height: 24px;
+
+  position: relative;
 
   background-color: var(--footer-text-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -567,11 +565,12 @@ ul {
   color: var(--text-secondary-color);
 }
 .close-icon {
-  fill: currentColor;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  fill: currentColor;
 }
 
 .close-button:hover,
